@@ -1,0 +1,48 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico&display=swap);
+
+body{
+    background-image: url(background-4.jpg);
+}
+
+.ABONNE-TOI {
+    background-color: #c92121;
+    color: white;
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-family: 'Pacifico', cursive;
+    border-bottom: 5px solid #9c1a1a;
+    text-shadow: 0px -2px #9c1a1a;
+    transition: all .1s;
+    -webkit-transition: all .1s;
+}
+
+.ABONNE-TOI:active {
+    transform: translate(0, 5px);
+    -webkit-transform: translate(0, 5px);
+    border-bottom: 1px solid;
+}
+
+.Bienvenue {
+    color: rgba(255, 238, 0, 0.651);
+    text-shadow: 2px 3px 7px black;
+}
+
+.Menu {
+    background-color: #c92189;
+    color: white;
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-family: 'Pacifico', cursive;
+    border-bottom: 5px solid #9c1a86;
+    text-shadow: 0px -2px #9c1a86;
+    transition: all .1s;
+    -webkit-transition: all .1s;
+}
+
+.Menu:active {
+    transform: translate(0, 5px);
+    -webkit-transform: translate(0, 5px);
+    border-bottom: 1px solid;
+}

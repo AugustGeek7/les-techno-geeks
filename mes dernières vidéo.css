@@ -1,0 +1,22 @@
+body {
+    
+}
+
+.Menu {
+    background-color: #c92189;
+    color: white;
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-family: 'Pacifico', cursive;
+    border-bottom: 5px solid #9c1a86;
+    text-shadow: 0px -2px #9c1a86;
+    transition: all .1s;
+    -webkit-transition: all .1s;
+}
+
+.Menu:active {
+    transform: translate(0, 5px);
+    -webkit-transform: translate(0, 5px);
+    border-bottom: 1px solid;
+}
