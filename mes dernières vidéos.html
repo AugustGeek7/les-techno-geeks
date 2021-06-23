@@ -9,10 +9,43 @@
     <meta name="generator" content="Visual Studio Code">
     <meta name="publisher" content="AugustGeek">
     <title>Mes dernière vidéos</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <link rel="stylesheet" type="text/css" href="mes dernières vidéo.css"/>
 </head>
 
 <body>
+    <div class="menu-icon">
+        <i class="fas fa-align-right"></i>
+      </div>
+  </header>
+
+  <div class="navigation-menu">
+    <nav>
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="mes dernières vidéos.html">Mes dernières vidéo</a></li>
+      <li><a href="Annonces.html">Annonces</a></li>
+      <li><a href="Connexion.html">Connexion</a></li>
+      <li><a href="Inscription.html">Inscription</a></li>
+      <li><a href="A-Propos.html">A propos</a></li>
+      <li><a href="Compteur.html">Compteur d'abonnés</a></li>
+      <li><a href="profile-card.html">Carte de profil</a></li>
+    </nav>
+  </div>
+
+  <script>
+    $(".menu-icon").click(function(){
+      $(this).toggleClass("active");
+      $(".navigation-menu").toggleClass("active");
+      $(".menu-icon i").toggleClass("fa-times");
+    });
+  </script>
+
+
+    <div class="header"></div>
+
+
+
     <h1 class="dernière">TUTO INFORMATIQUE #3 : CHANGER L'ICONE D'UN LOGICIEL SUR WINDOWS 10 !</h1>
     <iframe width="1800" height="800" src="https://www.youtube.com/embed/hSJiQJhTmiE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <h2 class="avant-dernière">RELEASE : DÉFI CONFIG : OBJECTIF 600€ OU MOINS !</h2>
