@@ -20,3 +20,11 @@ body {
     -webkit-transform: translate(0, 5px);
     border-bottom: 1px solid;
 }
+
+.dernière {
+    margin-left: 180px
+}
+
+.avant-dernière {
+    margin-left: 180px
+}
