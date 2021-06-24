@@ -4,10 +4,12 @@ body {
 }
 
 .dernière {
+    color: firebrick;
     margin-left: 180px
 }
 
 .avant-dernière {
+    color: firebrick;
     margin-left: 180px
 }
 
