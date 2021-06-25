@@ -204,3 +204,6 @@ p{
     background: #2ecc71;
 }
 
+.box:hover {
+  content: url(background-8.jpg);
+}
