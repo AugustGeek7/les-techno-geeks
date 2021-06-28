@@ -113,21 +113,24 @@ p{
 }
 
 .navigation-menu.active li:nth-child(5) a{
-  transition-delay: 1s;
+  transition-delay: 0.25s;
 }
 
 .navigation-menu.active li:nth-child(6) a{
-  transition-delay: 2s;
+  transition-delay: 0.5s;
 }
 
 .navigation-menu.active li:nth-child(7) a{
-  transition-delay: 3s;
+  transition-delay: 0.75s;
 }
 
 .navigation-menu.active li:nth-child(8) a{
-  transition-delay: 4s;
+  transition-delay: 1s;
 }
 
+.navigation-menu.active li:nth-child(9) a{
+  transition-delay: 1.25s;
+}
 .box {
     width: 300px;
     padding: 40px;

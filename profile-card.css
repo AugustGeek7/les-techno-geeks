@@ -123,19 +123,23 @@
   }
   
   .navigation-menu.active li:nth-child(5) a{
+    transition-delay: 0.25s;
+  }
+  
+  .navigation-menu.active li:nth-child(6) a{
+    transition-delay: 0.5s;
+  }
+  
+  .navigation-menu.active li:nth-child(7) a{
+    transition-delay: 0.75s;
+  }
+  
+  .navigation-menu.active li:nth-child(8) a{
     transition-delay: 1s;
   }
 
-  .navigation-menu.active li:nth-child(6) a{
-    transition-delay: 2s;
-  }
-
-  .navigation-menu.active li:nth-child(7) a{
-    transition-delay: 3s;
-  }
-
-  .navigation-menu.active li:nth-child(8) a{
-    transition-delay: 4s;
+  .navigation-menu.active li:nth-child(9) a{
+    transition-delay: 1.25s;
   }
   
 
