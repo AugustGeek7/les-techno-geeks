@@ -147,10 +147,6 @@ p{
   transition-delay: 0.75s;
 }
 
-.navigation-menu.active li:nth-child(8) a{
-  transition-delay: 1s;
-}
-
 .yas-quoi {
     color: rgba(255, 238, 0, 0.651);
     text-shadow: 2px 3px 7px black;

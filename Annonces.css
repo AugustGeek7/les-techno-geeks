@@ -124,11 +124,6 @@
   .navigation-menu.active li:nth-child(7) a{
     transition-delay: 0.75s;
   }
-  
-  .navigation-menu.active li:nth-child(8) a{
-    transition-delay: 1s;
-  }
-
 
   .container{
     text-align: center;

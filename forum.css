@@ -121,10 +121,6 @@ body{
     transition-delay: 0.75s;
   }
   
-  .navigation-menu.active li:nth-child(8) a{
-    transition-delay: 1s;
-  }
-
   .bg {
     height: 100vh;
     width: 100%;

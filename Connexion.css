@@ -124,11 +124,6 @@ p{
   transition-delay: 0.75s;
 }
 
-.navigation-menu.active li:nth-child(8) a{
-  transition-delay: 1s;
-}
-
-
 .box {
     width: 300px;
     padding: 40px;
